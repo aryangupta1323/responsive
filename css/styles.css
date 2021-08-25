@@ -1,0 +1,177 @@
+body{
+ font-family: 'Ubuntu', sans-serif;
+  }
+  #title{
+  background-color:#FF67E7;
+
+}
+
+
+.heading1{
+font-family: 'Montserrat', sans-serif;
+font-size:3rem;
+line-height:1.5;
+color:white;
+}
+.heading{
+  padding:140px 80px 280px;
+
+  text-align:center;
+
+}
+.button{
+  margin:40px 15px;
+}
+.title-image{
+
+  transform:rotate(25deg);
+
+  right:350px;
+
+  position:absolute;
+
+}
+
+.left-title{
+  text-align:center;
+
+}
+#features{
+  Padding:100px 70px;
+  background-color:white;
+  position:relative;
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+}
+#testimonials h2{
+ line-height:1.5;
+   color:white;
+   font-family: 'Montserrat-Bold', sans-serif;
+   width:70%;
+   margin:10px auto 70px auto ;
+   font-size:3rem;
+}
+
+p{
+  color:#8f8f8f;
+}
+.f{
+  text-align:center;
+}
+.icon{
+  font-size:50px;
+  color:orange;
+  margin-bottom:10px;
+}
+.icon:hover{
+  color:red;
+}
+/* TESTIONOMIALS */
+#testimonials{
+  background-color:orange;
+  padding:3% 5%;
+ text-align:center;
+}
+.testimonial-image{
+  width:5rem;
+  height:5rem;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color:orange;
+  text-align:center;
+    padding:100px 0;
+
+
+}
+#press img{
+  width:10%;
+  height:10%;
+ margin: 0 20px;
+}
+li{
+  margin-top:100px;
+}
+/* PRICING */
+#pricing{
+  margin:100px 20px;
+  text-align:center;
+}
+#pricing h2{
+  color:black;
+  font-size:2rem;
+  margin-bottom:30px;
+}
+#pricing p{
+  font-size:1rem;
+  margin-bottom:50px;
+}
+.card{
+  border:5px solid black;
+}
+.card-header{
+  background-color:orange;
+  border-bottom:10px solid #EEEEEE;
+}
+#pricing hr{
+  width:30%;
+  size:3px;
+  border-top:3px solid;
+}
+
+/* CALL TO ACTION */
+#cta{
+  text-align:center;
+  background-color:#FF67E7;
+  padding:7% 4%;
+}
+#cta h3{
+  color:white;
+  font-size:40px;
+
+    margin-bottom:70px;
+    text-decoration:bold;
+}
+#ctn .button{
+  margin:0px 20px;
+}
+/* FOOTER */
+#footer{
+  padding:5% 3%;
+  text-align:center;
+  background-color:white;
+
+}
+#footer .logo{
+  margin:50px 10px 20px;
+
+}
+#footer p{
+  font-family:monospace;
+}
+@media (max-width:992px){
+  .f{
+    margin-bottom:70px;
+  }
+  #testimonials h2{
+    font-size:1rem;
+
+  }
+  #pricing .card{
+    margin-bottom: 50px;
+  }
+}
+@media (max-width:1400px){
+  .title-image{
+    transform:rotate(0);
+    position:static;
+    width:200px;
+    margin:0 auto;
+  }
+  .heading{
+    padding-bottom:100px;
+  }
+}
